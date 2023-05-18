@@ -188,7 +188,21 @@ def read_censos():
     desemprego11 = desemprego11.groupby("FREGUESIA").agg({"desemprego":'sum'})
     desemprego11 = desemprego11.add_suffix("_INE_11")
 
-    populacao = tipologias2014.merge(nac21, left_index=True, right_index=True).merge(nac11, left_index=True, right_index=True).merge(nac01, left_index=True, right_index=True).merge(educacao21, left_index=True, right_index=True).merge(envelhecimento21, left_index=True, right_index=True).merge(envelhecimento11, left_index=True, right_index=True).merge(envelhecimento01, left_index=True, right_index=True).merge(desemprego21, left_index=True, right_index=True).merge(desemprego11, left_index=True, right_index=True)
+    desloc_21 = pd.read_excel('dados/desloc_2021.xlsx').set_index("FREGUESIA")
+    desloc_21 = remover_nao_freguesias(desloc_21)
+    desloc_21 = desloc_21.reset_index()
+    desloc_21["FREGUESIA"] = desloc_21["FREGUESIA"].map(corr)
+    desloc_21 = desloc_21.groupby("FREGUESIA").agg({"prov_PT":'sum', "prov_EST":'sum'})
+    desloc_21 = desloc_21.add_suffix("_INE_21")
+
+    desloc_11 = pd.read_excel('dados/desloc_2011.xlsx').set_index("FREGUESIA")
+    desloc_11 = remover_nao_freguesias(desloc_11)
+    desloc_11 = desloc_11.reset_index()
+    desloc_11["FREGUESIA"] = desloc_11["FREGUESIA"].map(corr)
+    desloc_11 = desloc_11.groupby("FREGUESIA").agg({"prov_PT":'sum', "prov_EST":'sum'})
+    desloc_11 = desloc_11.add_suffix("_INE_11")
+
+    populacao = tipologias2014.merge(nac21, left_index=True, right_index=True).merge(nac11, left_index=True, right_index=True).merge(nac01, left_index=True, right_index=True).merge(educacao21, left_index=True, right_index=True).merge(envelhecimento21, left_index=True, right_index=True).merge(envelhecimento11, left_index=True, right_index=True).merge(envelhecimento01, left_index=True, right_index=True).merge(desemprego21, left_index=True, right_index=True).merge(desemprego11, left_index=True, right_index=True).merge(desloc_21, left_index=True, right_index=True).merge(desloc_11, left_index=True, right_index=True)
     populacao["sec+_INE_21"] = populacao["sec+_INE_21"] / populacao["TOTAL_INE_21"] * 100
     populacao["superior_INE_21"] = populacao["superior_INE_21"] / populacao["TOTAL_INE_21"] * 100
     populacao["65+_INE_21"] = populacao["65+_INE_21"] / populacao["TOTAL_INE_21"] * 100
@@ -196,6 +210,10 @@ def read_censos():
     populacao["65+_INE_01"] = populacao["65+_INE_01"] / populacao["TOTAL_INE_01"] * 100
     populacao["desemprego_INE_21"] = populacao["desemprego_INE_21"] / populacao["TOTAL_INE_21"] * 100
     populacao["desemprego_INE_11"] = populacao["desemprego_INE_11"] / populacao["TOTAL_INE_11"] * 100
+    populacao["prov_PT_INE_21"] = populacao["prov_PT_INE_21"] / populacao["TOTAL_INE_21"] * 100
+    populacao["prov_EST_INE_21"] = populacao["prov_EST_INE_21"] / populacao["TOTAL_INE_21"] * 100
+    populacao["prov_PT_INE_11"] = populacao["prov_PT_INE_11"] / populacao["TOTAL_INE_11"] * 100
+    populacao["prov_EST_INE_11"] = populacao["prov_EST_INE_11"] / populacao["TOTAL_INE_11"] * 100
 
     populacao["sec+_INE_21"] = populacao["sec+_INE_21"].astype(float).round(1)
     populacao["superior_INE_21"] = populacao["superior_INE_21"].astype(float).round(1)
@@ -204,6 +222,10 @@ def read_censos():
     populacao["65+_INE_01"] = populacao["65+_INE_01"].astype(float).round(1)
     populacao["desemprego_INE_21"] = populacao["desemprego_INE_21"].astype(float).round(1)
     populacao["desemprego_INE_11"] = populacao["desemprego_INE_11"].astype(float).round(1)
+    populacao["prov_PT_INE_21"] = populacao["prov_PT_INE_21"].astype(float).round(1) 
+    populacao["prov_EST_INE_21"] = populacao["prov_EST_INE_21"].astype(float).round(1)
+    populacao["prov_PT_INE_11"] = populacao["prov_PT_INE_11"].astype(float).round(1)
+    populacao["prov_EST_INE_11"] = populacao["prov_EST_INE_11"].astype(float).round(1)
 
     populacao["VAR_PT_21_11_rel"] = (populacao["PT_INE_21"] - populacao["PT_INE_11"]) / populacao["PT_INE_11"] * 100
 
