@@ -100,7 +100,7 @@ def print_scatter(comp, variableX, variableY, variableZ, variableXtitle, variabl
             i+=1
 
     fig.show()
-    #fig.write_html("outputs/" + name, full_html=False, include_plotlyjs='cdn')
+    fig.write_html("outputs/" + name, full_html=False, include_plotlyjs='cdn')
     print("Correlação geral: " + str(np.corrcoef(comp[variableX], comp[variableY])[0][1]))
 
     return fig
