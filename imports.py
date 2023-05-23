@@ -231,6 +231,27 @@ def read_censos():
 
     return populacao
 
+def read_consulados_mai(ano):
+    df = pd.read_excel("dados/MAI/BDRE_Contagem_Eleitores_" + str(ano) + ".xls", sheet_name="Freguesia_Consulado", converters={"Codigo":str, 'Código':str, "Nac":int, "UE": int, "ER":int,"TOTAL":int})
+    rename_dict = {"Codigo":"CONSULADO", "Código":"CONSULADO", "Nac":"NAC", "Distrito/Ilha/Continente > Concelho/País > Freguesia/Consulado":"Nome"}
+
+    for old_col, new_col in rename_dict.items():
+        if old_col in df.columns:
+            df = df.rename(columns={old_col: new_col})
+
+    df = df[["CONSULADO", "Nome", "NAC"]]
+    df = df[~df["CONSULADO"].isna()]
+    df = df.loc[df["CONSULADO"].map(lambda x: int(str(x)[:2]) >= 50 and  int(str(x)[:2]) < 99)]
+
+    df['Pais'] = df['CONSULADO'].str[:4].map(corr_consulados_cod_nome)
+    df['Cidade'] = df['Nome'].str.split(' > ', expand=True)[2]
+
+
+    df = df.groupby('CONSULADO').agg({'Pais': 'first', 'Cidade':'first', 'NAC': 'sum'})
+    df = df.rename(columns={"NAC": "PT_MAI_" + str(ano)[2:]})
+
+    return df
+
 def get_comp():
 
     populacao = read_censos()
@@ -242,9 +263,9 @@ def get_comp():
     comp["diff_abs_21"] = comp["diff_abs_21"].astype(float)
     comp["diff_abs_11"] = comp["PT_MAI_11"] - comp["PT_INE_11"]
     comp["diff_abs_01"] = comp["PT_MAI_01"] - comp["PT_INE_01"]
-    comp["diff_rel_21"] = comp["diff_abs_21"] / comp["PT_INE_21"] * 100
-    comp["diff_rel_11"] = comp["diff_abs_11"] / comp["PT_INE_11"] * 100
-    comp["diff_rel_01"] = comp["diff_abs_01"] / comp["PT_INE_01"] * 100
+    comp["diff_rel_21"] = comp["diff_abs_21"] / comp["PT_MAI_21"] * 100
+    comp["diff_rel_11"] = comp["diff_abs_11"] / comp["PT_MAI_11"] * 100
+    comp["diff_rel_01"] = comp["diff_abs_01"] / comp["PT_MAI_01"] * 100
     comp['diff_rel_21'] = comp['diff_rel_21'].astype(float).round(1)
     comp['diff_rel_11'] = comp['diff_rel_11'].astype(float).round(1)
     comp['diff_rel_01'] = comp['diff_rel_01'].astype(float).round(1)
@@ -261,6 +282,101 @@ def remover_nao_freguesias(df):
             # Delete the row with the corresponding index
             df = df.drop(index=index_value)
     return df
+
+corr_consulados_xlsx = pd.read_excel('dados/corr/consulados_corr.xlsx', converters={'CONSULADO':str,'Nome':str})
+corr_consulados_cidades_xlsx  = pd.read_excel('dados/corr/consulados_cidades.xlsx', converters={'CONSULADO':str,'Nome':str})
+corr_consulados_continentes_xlsx  = pd.read_excel('dados/corr/consulados_continentes.xlsx', converters={'CONSULADO':str,'Nome':str})
+corr_consulados_cod_continente = dict(zip(corr_consulados_continentes_xlsx.CONSULADO,corr_consulados_continentes_xlsx.Nome))
+corr_consulados_cod_cidade = dict(zip(corr_consulados_cidades_xlsx.CONSULADO,corr_consulados_cidades_xlsx.Nome))
+corr_consulados = dict(zip(corr_consulados_xlsx.consulado_old,corr_consulados_xlsx.consulado_new))
+corr_consulados_nomes = dict(zip(corr_consulados_xlsx.nome_old,corr_consulados_xlsx.nome_new))
+corr_consulados_cod_nome = dict(zip(corr_consulados_xlsx.consulado_new,corr_consulados_xlsx.nome_new))
+corr_consulados_cod_nome = {str(key): value for key, value in corr_consulados_cod_nome.items()}
+corr_consulados_nome_cod = dict(zip(corr_consulados_xlsx.nome_new,corr_consulados_xlsx.consulado_new))
+
+def read_consulados_mai_year(ano):
+    df = pd.read_excel("dados/MAI/BDRE_Contagem_Eleitores_" + str(ano) + ".xls", sheet_name="Freguesia_Consulado", converters={"Codigo":str, 'Código':str, "Nac":int, "UE": int, "ER":int,"TOTAL":int})
+    rename_dict = {"Codigo":"CONSULADO", "Código":"CONSULADO", "Nac":"NAC", "Distrito/Ilha/Continente > Concelho/País > Freguesia/Consulado":"Nome"}
+
+    for old_col, new_col in rename_dict.items():
+        if old_col in df.columns:
+            df = df.rename(columns={old_col: new_col})
+
+    df = df[["CONSULADO", "Nome", "NAC"]]
+    
+    df = df[~df["CONSULADO"].isna()]
+    df = df.loc[df["CONSULADO"].map(lambda x: int(str(x)[:2]) >= 50 and  int(str(x)[:2]) < 99)]
+    df["CONSULADO"] = df["CONSULADO"].apply(lambda x: x.replace('  ',''))
+    df["CONSULADO"] = df["CONSULADO"].astype(str)
+    df['Continente'] = df['Nome'].str.split(' > ', expand=True)[0]
+    df['Pais'] = df['CONSULADO'].str[:4].map(corr_consulados_cod_nome)
+    df['Cidade'] = df['Nome'].str.split(' > ', expand=True)[2]
+
+
+    df = df.set_index("CONSULADO")
+    df = df.rename(columns={"NAC": "PT_MAI_" + str(ano)[2:]})
+
+    return df
+
+def read_consulados_mai():
+    merged_dfs = []
+    for year in range(2012,2022):
+        df = read_consulados_mai_year(year)
+        if year != 2021:
+            merged_dfs.append(df["PT_MAI_" + str(year)[2:]])
+        else:
+            merged_dfs.append(df)
+
+    comp_consulados = pd.concat(merged_dfs, axis = 1)
+
+    order = ["Continente", "Pais", "Cidade"] + [col for col in comp_consulados.columns if col not in ["Continente", "Pais", "Cidade"]]
+
+    # Reorder the columns in the DataFrame
+    comp_consulados = comp_consulados[order]
+
+    comp_consulados["Continente"] = comp_consulados.index.str[:2].map(corr_consulados_cod_continente)
+    comp_consulados['Pais'] = comp_consulados.index.str[:4].map(corr_consulados_cod_nome)
+    replacement_series = pd.Series(corr_consulados_cod_cidade)
+    comp_consulados['Cidade'] = comp_consulados['Cidade'].fillna(replacement_series)
+    comp_consulados = comp_consulados.drop(columns=["Nome"])
+    
+    return comp_consulados
+
+def find_country_intervals(data):
+    cd = {}
+
+    for year in range(2012, 2022):
+        print(year)
+        cd[year] = read_consulados_mai(year)["Cidade"].tolist()
+        print(str(year) + ": " + str(len(cd[year])))
+    
+    all_countries = set()
+    intervals = {}
+    
+    # Collect all unique countries
+    for year_data in data.values():
+        for country in year_data:
+            all_countries.add(country)
+    
+    # Check presence of countries in each year
+    for year, year_data in data.items():
+        present_countries = set(year_data)
+        missing_countries = all_countries - present_countries
+        
+        # Update intervals dictionary for missing countries
+        for country in missing_countries:
+            if country not in intervals:
+                intervals[country] = []
+            intervals[country].append(year)
+    
+    # Filter intervals for countries not present in all years
+    intervals = {country: years for country, years in intervals.items() if len(years) > 1}
+    
+    # Print the intervals for each country
+    for country, years in intervals.items():
+        print(f"{country} não está presente em: {years}")
+
+
 
 # ADICIONAR VARIÁVEIS (MÉDIA PONDERADA PARA AS UNIÕES DE FREGUESIAS (EX: EDUCAÇÃO))
 #df = pd.DataFrame({
