@@ -104,6 +104,33 @@ def print_scatter(comp, variableX, variableY, variableZ, variableXtitle, variabl
     print("Correlação geral: " + str(np.corrcoef(comp[variableX], comp[variableY])[0][1]))
 
     return fig
+
+
+def print_scatter_simples(comp, variableX, variableY, variableZ, variableXtitle, variableYtitle, name="test.html", division="TIPAU", hover_data=['FF_DSG', "PT_INE_21", "PT_MAI_21"], nbins = 5, frac=0.3):
+    scaler = MinMaxScaler(feature_range=(1, 40))  # Adjust the feature range as needed
+    pt_ine_21_scaled = scaler.fit_transform(comp['PT_INE_21'].values.reshape(-1, 1)).flatten()
+    colors = cmap_grey
+
+    # Set up the scatter plot
+    fig = px.scatter(comp, x=variableX, y=variableY,
+                     labels={
+                         variableY: variableYtitle,
+                         variableX: variableXtitle
+                     },
+                     color=variableZ,
+                     color_discrete_map=colors,
+                     size=pt_ine_21_scaled,
+                     size_max=40,
+                     hover_data=hover_data,
+                     category_orders={variableZ: np.sort(comp[variableZ].unique())})
+
+
+    fig.show()
+
+    fig.write_html("outputs/" + name, full_html=False, include_plotlyjs='cdn')
+
+    return fig
+    
     
     
 

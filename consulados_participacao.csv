@@ -1,0 +1,589 @@
+Ano,Eleição,MAI_code,ISO_code,index,Continente,Pais,Consulado,Inscritos,Votantes,Nulos
+2022,AR,810201,DEU,0,Europa,Alemanha,Berlim,5231,1012,187
+2021,PR,810201,DEU,1,Europa,Alemanha,Berlim,4901,656,1
+2019,EUR,810201,DEU,2,Europa,Alemanha,Berlim,4379,324,1
+2016,PR,810201,DEU,3,Europa,Alemanha,Berlim,488,196,0
+2014,EUR,810201,DEU,4,Europa,Alemanha,Berlim,174,48,1
+2011,PR,810201,DEU,5,Europa,Alemanha,Berlim,164,60,0
+2022,AR,810202,DEU,6,Europa,Alemanha,Dusseldorf,26597,3504,859
+2021,PR,810202,DEU,7,Europa,Alemanha,Dusseldorf,26285,401,1
+2019,AR,810202,DEU,8,Europa,Alemanha,Dusseldorf,24430,3039,679
+2019,EUR,810202,DEU,9,Europa,Alemanha,Dusseldorf,23126,185,1
+2016,PR,810202,DEU,10,Europa,Alemanha,Dusseldorf,4657,175,1
+2015,AR,810202,DEU,11,Europa,Alemanha,Consulado de Dusseldorf,3538,764,0
+2014,EUR,810202,DEU,12,Europa,Alemanha,Dusseldorf,4019,60,1
+2011,PR,810202,DEU,13,Europa,Alemanha,Dusseldorf,3091,183,1
+2009,EUR,810202,DEU,14,Europa,Alemanha,Dusseldorf,2978,102,0
+2022,AR,810203,DEU,15,Europa,Alemanha,Estugarda,30342,4613,905
+2021,PR,810203,DEU,16,Europa,Alemanha,Estugarda,33842,395,0
+2019,EUR,810203,DEU,17,Europa,Alemanha,Estugarda,35131,208,0
+2016,PR,810203,DEU,18,Europa,Alemanha,Estugarda,4510,237,0
+2014,EUR,810203,DEU,19,Europa,Alemanha,Estugarda,3805,90,0
+2011,PR,810203,DEU,20,Europa,Alemanha,Estugarda,3196,228,0
+2009,EUR,810203,DEU,21,Europa,Alemanha,Estugarda,3422,105,0
+2011,PR,810204,DEU,22,Europa,Alemanha,Frankfurt,2106,222,1
+2009,EUR,810204,DEU,23,Europa,Alemanha,Frankfurt,2131,103,2
+2022,AR,810205,DEU,24,Europa,Alemanha,Hamburgo,13887,1833,494
+2021,PR,810205,DEU,25,Europa,Alemanha,Hamburgo,13978,281,0
+2019,AR,810205,DEU,26,Europa,Alemanha,Hamburgo,13861,1533,610
+2019,EUR,810205,DEU,27,Europa,Alemanha,Hamburgo,13520,137,1
+2016,PR,810205,DEU,28,Europa,Alemanha,Hamburgo,7553,164,0
+2015,AR,810205,DEU,29,Europa,Alemanha,Consulado de Hamburgo,6922,594,2
+2014,EUR,810205,DEU,30,Europa,Alemanha,Hamburgo,6326,55,0
+2011,PR,810205,DEU,31,Europa,Alemanha,Hamburgo,880,119,0
+2009,EUR,810205,DEU,32,Europa,Alemanha,Hamburgo,2989,115,2
+2011,PR,810206,DEU,33,Europa,Alemanha,Osnabruck,3206,182,0
+2019,AR,810299,DEU,34,Europa,Alemanha,Restantes Postos Consulados da Alemanha,39714,5063,1504
+2015,AR,810299,DEU,35,Europa,Alemanha,Restantes Consulados da Alemanha,3759,927,1
+2011,AR,810299,DEU,36,Europa,Alemanha,Consulados da Alemanha,10718,3141,9
+2009,AR,810299,DEU,37,Europa,Alemanha,Consulados da Alemanha,10223,3254,455
+2021,PR,810301,AUT,38,Europa,Áustria,Viena,1863,174,0
+2019,EUR,810301,AUT,39,Europa,Áustria,Viena,1407,108,0
+2016,PR,810301,AUT,40,Europa,Áustria,Viena,267,117,0
+2014,EUR,810301,AUT,41,Europa,Áustria,Viena,126,40,2
+2022,AR,810401,BEL,42,Europa,Bélgica,Bruxelas,18157,1893,315
+2021,PR,810401,BEL,43,Europa,Bélgica,Bruxelas,18936,1334,6
+2019,AR,810401,BEL,44,Europa,Bélgica,Bruxelas,19261,3275,347
+2019,EUR,810401,BEL,45,Europa,Bélgica,Bruxelas,19672,849,5
+2016,PR,810401,BEL,46,Europa,Bélgica,Bruxelas,2549,520,3
+2014,EUR,810401,BEL,47,Europa,Bélgica,Bruxelas,1995,317,0
+2011,PR,810401,BEL,48,Europa,Bélgica,Bruxelas,2473,438,0
+2009,EUR,810401,BEL,49,Europa,Bélgica,Bruxelas,2430,377,2
+2021,PR,810501,BGR,50,Europa,Bulgária,Sófia,203,48,0
+2019,EUR,810501,BGR,51,Europa,Bulgária,Sófia,158,23,0
+2021,PR,810601,CZE,52,Europa,República Checa,Praga,473,124,1
+2019,EUR,810601,CZE,53,Europa,República Checa,Praga,294,64,1
+2021,PR,810701,DNK,54,Europa,Dinamarca,Copenhague,1567,375,0
+2019,EUR,810701,DNK,55,Europa,Dinamarca,Copenhague,986,138,1
+2016,PR,810701,DNK,56,Europa,Dinamarca,Copenhague,211,81,0
+2014,EUR,810701,DNK,57,Europa,Dinamarca,Copenhague,166,28,0
+2011,PR,810701,DNK,58,Europa,Dinamarca,Copenhague,293,69,0
+2009,EUR,810701,DNK,59,Europa,Dinamarca,Copenhague,166,42,0
+2021,PR,810801,ESP,60,Europa,Espanha,Barcelona,11787,557,1
+2019,EUR,810801,ESP,61,Europa,Espanha,Barcelona,8361,158,1
+2016,PR,810801,ESP,62,Europa,Espanha,Barcelona,1196,172,1
+2014,EUR,810801,ESP,63,Europa,Espanha,Barcelona,615,34,0
+2011,PR,810801,ESP,64,Europa,Espanha,Barcelona,708,101,0
+2009,EUR,810801,ESP,65,Europa,Espanha,Barcelona,287,15,0
+2021,PR,810803,ESP,66,Europa,Espanha,Madrid,17799,806,4
+2019,EUR,810803,ESP,67,Europa,Espanha,Madrid,13645,226,1
+2016,PR,810803,ESP,68,Europa,Espanha,Madrid,1386,233,1
+2014,EUR,810803,ESP,69,Europa,Espanha,Madrid,767,42,0
+2011,PR,810803,ESP,70,Europa,Espanha,Madrid,1208,85,1
+2009,EUR,810803,ESP,71,Europa,Espanha,Madrid,947,50,0
+2021,PR,810804,ESP,72,Europa,Espanha,Vigo,7354,83,1
+2019,EUR,810804,ESP,73,Europa,Espanha,Vigo,4589,35,0
+2016,PR,810804,ESP,74,Europa,Espanha,Vigo,2274,44,0
+2014,EUR,810804,ESP,75,Europa,Espanha,Vigo,671,28,1
+2011,PR,810804,ESP,76,Europa,Espanha,Vigo,1466,102,0
+2009,EUR,810804,ESP,77,Europa,Espanha,Vigo,458,23,0
+2021,PR,810805,ESP,78,Europa,Espanha,Sevilha,5154,90,1
+2019,EUR,810805,ESP,79,Europa,Espanha,Sevilha,4298,29,0
+2016,PR,810805,ESP,80,Europa,Espanha,Sevilha,1308,42,0
+2014,EUR,810805,ESP,81,Europa,Espanha,Sevilha,305,14,0
+2011,PR,810805,ESP,82,Europa,Espanha,Sevilha,246,19,0
+2009,EUR,810805,ESP,83,Europa,Espanha,Sevilha,185,12,0
+2022,AR,810899,ESP,84,Europa,Espanha,Postos Consulares de Espanha,42691,4468,1210
+2019,AR,810899,ESP,85,Europa,Espanha,Postos Consulares da Espanha,38582,4161,646
+2015,AR,810899,ESP,86,Europa,Espanha,Consulados da Espanha,4945,560,3
+2021,PR,810901,FIN,87,Europa,Finlândia,Helsínquia,465,79,0
+2019,EUR,810901,FIN,88,Europa,Finlândia,Helsínquia,226,29,0
+2016,PR,810901,FIN,89,Europa,Finlândia,Helsínquia,140,47,0
+2022,AR,811002,FRA,90,Europa,França,Bordéus,30196,3597,1428
+2021,PR,811002,FRA,91,Europa,França,Bordéus,30760,171,1
+2019,AR,811002,FRA,92,Europa,França,Bordéus ,29096,2879,1022
+2019,EUR,811002,FRA,93,Europa,França,Bordéus,27245,53,0
+2016,PR,811002,FRA,94,Europa,França,Bordéus,6532,115,0
+2015,AR,811002,FRA,95,Europa,França,Consulado de Bordéus ,5397,492,65
+2014,EUR,811002,FRA,96,Europa,França,Bordéus,4077,17,0
+2011,PR,811002,FRA,97,Europa,França,Bordéus,4266,109,1
+2009,EUR,811002,FRA,98,Europa,França,Bordéus,3250,25,0
+2011,PR,811003,FRA,99,Europa,França,Clermont Ferrand,4792,145,1
+2009,EUR,811003,FRA,100,Europa,França,Clermont Ferrand,4396,46,1
+2022,AR,811004,FRA,101,Europa,França,Estrasburgo,19010,2957,967
+2021,PR,811004,FRA,102,Europa,França,Estrasburgo,20262,117,0
+2019,AR,811004,FRA,103,Europa,França,Estrasburgo,20606,2510,492
+2019,EUR,811004,FRA,104,Europa,França,Estrasburgo,19210,58,0
+2016,PR,811004,FRA,105,Europa,França,Estrasburgo,2657,114,0
+2014,EUR,811004,FRA,106,Europa,França,Estrasburgo,2070,29,1
+2011,PR,811004,FRA,107,Europa,França,Estrasburgo,2524,97,0
+2009,EUR,811004,FRA,108,Europa,França,Estrasburgo,2017,28,0
+2022,AR,811006,FRA,109,Europa,França,Lyon,56860,6598,2243
+2021,PR,811006,FRA,110,Europa,França,Lyon,58865,521,2
+2019,AR,811006,FRA,111,Europa,França,Lyon,54367,5115,1720
+2019,EUR,811006,FRA,112,Europa,França,Lyon,51947,121,0
+2016,PR,811006,FRA,113,Europa,França,Lyon,13489,222,3
+2015,AR,811006,FRA,114,Europa,França,Consulado de Lyon,8085,821,199
+2014,EUR,811006,FRA,115,Europa,França,Lyon,10196,25,0
+2011,AR,811006,FRA,116,Europa,França,Consulado de Lyon,7841,698,173
+2011,PR,811006,FRA,117,Europa,França,Lyon,10818,90,1
+2009,AR,811006,FRA,118,Europa,França,Lyon,8142,836,255
+2009,EUR,811006,FRA,119,Europa,França,Lyon,8720,33,1
+2022,AR,811007,FRA,120,Europa,França,Marselha,36013,3193,1139
+2021,PR,811007,FRA,121,Europa,França,Marselha,35906,270,1
+2019,AR,811007,FRA,122,Europa,França,Marselha,33686,2850,1110
+2019,EUR,811007,FRA,123,Europa,França,Marselha,32484,125,1
+2016,PR,811007,FRA,124,Europa,França,Marselha,780,46,0
+2014,EUR,811007,FRA,125,Europa,França,Marselha,505,9,0
+2011,PR,811007,FRA,126,Europa,França,Marselha,668,30,0
+2009,EUR,811007,FRA,127,Europa,França,Marselha,634,10,0
+2011,PR,811009,FRA,128,Europa,França,Nantes,848,88,1
+2009,EUR,811009,FRA,129,Europa,França,Nantes,644,38,0
+2022,AR,811012,FRA,130,Europa,França,Paris,232484,27949,9415
+2021,PR,811012,FRA,131,Europa,França,Paris,247681,1783,8
+2019,AR,811012,FRA,132,Europa,França,Paris,246055,27351,7510
+2019,EUR,811012,FRA,133,Europa,França,Paris,235492,764,14
+2016,PR,811012,FRA,134,Europa,França,Paris,30678,1131,2
+2015,AR,811012,FRA,135,Europa,França,Consulado de Paris,20859,3653,412
+2014,EUR,811012,FRA,136,Europa,França,Paris,25352,205,0
+2011,AR,811012,FRA,137,Europa,França,Consulado de Paris,8648,2470,150
+2011,PR,811012,FRA,138,Europa,França,Paris,34719,1505,15
+2009,AR,811012,FRA,139,Europa,França,Paris,16993,4128,611
+2009,EUR,811012,FRA,140,Europa,França,Paris,31502,320,1
+2022,AR,811015,FRA,141,Europa,França,Toulouse,20703,2293,869
+2021,PR,811015,FRA,142,Europa,França,Toulouse,20586,181,1
+2019,AR,811015,FRA,143,Europa,França,Toulouse,18928,1840,37
+2019,EUR,811015,FRA,144,Europa,França,Toulouse,17775,79,1
+2016,PR,811015,FRA,145,Europa,França,Toulouse,4344,91,1
+2015,AR,811015,FRA,146,Europa,França,Consulado de Toulouse,3407,313,75
+2014,EUR,811015,FRA,147,Europa,França,Toulouse,3673,30,0
+2011,PR,811015,FRA,148,Europa,França,Toulouse,3055,71,0
+2009,EUR,811015,FRA,149,Europa,França,Toulouse,2705,35,1
+2015,AR,811099,FRA,150,Europa,França,Restantes Consulados de França,2418,463,90
+2011,AR,811099,FRA,151,Europa,França,Restantes Consulados de França,29011,5975,1042
+2009,AR,811099,FRA,152,Europa,França,Restante França,21517,3863,771
+2021,PR,811101,GRC,153,Europa,Grécia,Atenas,210,17,0
+2019,EUR,811101,GRC,154,Europa,Grécia,Atenas,103,11,0
+2021,PR,811201,NLD,155,Europa,Países Baixos,Haia,13678,952,12
+2019,AR,811201,NLD,156,Europa,Holanda,Haia,12278,1580,400
+2019,EUR,811201,NLD,157,Europa,Holanda,Haia,10776,278,1
+2016,PR,811201,NLD,158,Europa,Holanda,Haia,1338,173,0
+2014,EUR,811201,NLD,159,Europa,Holanda,Haia,998,45,0
+2011,PR,811201,NLD,160,Europa,Holanda,Haia,951,91,0
+2009,EUR,811201,NLD,161,Europa,Holanda,Haia,850,29,0
+2021,PR,811301,HUN,162,Europa,Hungria,Budapeste,281,62,5
+2019,EUR,811301,HUN,163,Europa,Hungria,Budapeste,196,35,0
+2021,PR,811401,IRL,164,Europa,Irlanda,Dublin,4254,394,2
+2019,EUR,811401,IRL,165,Europa,Irlanda,Dublin,3631,166,0
+2016,PR,811401,IRL,166,Europa,Irlanda,Dublin,218,92,0
+2021,PR,811502,ITA,167,Europa,Itália,Roma,3213,80,0
+2019,EUR,811502,ITA,168,Europa,Itália,Roma,2393,37,0
+2016,PR,811502,ITA,169,Europa,Itália,Roma,958,159,2
+2014,EUR,811502,ITA,170,Europa,Itália,Roma,622,61,0
+2011,PR,811502,ITA,171,Europa,Itália,Roma,957,115,1
+2009,EUR,811502,ITA,172,Europa,Itália,Roma,789,55,0
+2022,AR,811701,LUX,173,Europa,Luxemburgo,Luxemburgo,40277,5261,1456
+2021,PR,811701,LUX,174,Europa,Luxemburgo,Luxemburgo,44265,1646,10
+2019,AR,811701,LUX,175,Europa,Luxemburgo,Luxemburgo,47026,7707,1945
+2019,EUR,811701,LUX,176,Europa,Luxemburgo,Luxemburgo,47541,460,7
+2016,PR,811701,LUX,177,Europa,Luxemburgo,Luxemburgo,2027,527,3
+2014,EUR,811701,LUX,178,Europa,Luxemburgo,Luxemburgo,1138,95,1
+2011,PR,811701,LUX,179,Europa,Luxemburgo,Luxemburgo,1953,392,4
+2009,EUR,811701,LUX,180,Europa,Luxemburgo,Luxemburgo,1786,91,0
+2021,PR,811801,NOR,181,Europa,Noruega,Oslo,2999,287,0
+2019,EUR,811801,NOR,182,Europa,Noruega,Oslo,2765,137,1
+2016,PR,811801,NOR,183,Europa,Noruega,Oslo,237,76,0
+2014,EUR,811801,NOR,184,Europa,Noruega,Oslo,125,9,0
+2011,PR,811801,NOR,185,Europa,Noruega,Oslo,140,19,0
+2009,EUR,811801,NOR,186,Europa,Noruega,Oslo,140,8,0
+2021,PR,811901,POL,187,Europa,Polónia,Varsóvia,820,131,0
+2019,EUR,811901,POL,188,Europa,Polónia,Varsóvia,655,52,0
+2016,PR,811901,POL,189,Europa,Polónia,Varsóvia,160,45,2
+2014,EUR,811901,POL,190,Europa,Polónia,Varsóvia,116,19,0
+2022,AR,812001,GBR,191,Europa,Reino Unido,Londres,118156,10941,4466
+2021,PR,812001,GBR,192,Europa,Reino Unido,Londres,105298,1875,9
+2019,EUR,812001,GBR,193,Europa,Reino Unido,Londres,89715,445,4
+2016,PR,812001,GBR,194,Europa,Reino Unido,Londres,1798,486,4
+2014,EUR,812001,GBR,195,Europa,Reino Unido,Londres,1102,77,2
+2011,PR,812001,GBR,196,Europa,Reino Unido,Londres,1233,123,1
+2009,EUR,812001,GBR,197,Europa,Reino Unido,Londres,1119,44,0
+2022,AR,812002,GBR,198,Europa,Reino Unido,Manchester,38553,3713,1684
+2021,PR,812002,GBR,199,Europa,Reino Unido,Manchester,35431,335,1
+2019,EUR,812002,GBR,200,Europa,Reino Unido,Manchester,30546,67,0
+2016,PR,812002,GBR,201,Europa,Reino Unido,Manchester,1002,97,0
+2014,EUR,812002,GBR,202,Europa,Reino Unido,Manchester,305,8,0
+2011,PR,812002,GBR,203,Europa,Reino Unido,Manchester,196,31,1
+2009,EUR,812002,GBR,204,Europa,Reino Unido,Manchester,175,0,0
+2019,AR,812099,GBR,205,Europa,Reino Unido,Postos Consulares do Reino Unido,125495,14280,2604
+2021,PR,812101,ROU,206,Europa,Roménia,Bucareste,750,39,0
+2019,EUR,812101,ROU,207,Europa,Roménia,Bucareste,675,30,0
+2021,PR,812201,SWE,208,Europa,Suécia,Estocolmo,2006,311,1
+2019,EUR,812201,SWE,209,Europa,Suécia,Estocolmo,1312,74,0
+2016,PR,812201,SWE,210,Europa,Suécia,Estocolmo,496,91,0
+2014,EUR,812201,SWE,211,Europa,Suécia,Estocolmo,288,31,0
+2011,PR,812201,SWE,212,Europa,Suécia,Estocolmo,241,29,0
+2009,EUR,812201,SWE,213,Europa,Suécia,Estocolmo,169,14,0
+2021,PR,812301,RUS,214,Europa,Rússia,Moscovo,285,9,0
+2019,EUR,812301,RUS,215,Europa,Rússia,Moscovo,170,11,0
+2021,PR,812401,AND,216,Europa,Andorra,Andorra,7557,258,2
+2019,EUR,812401,AND,217,Europa,Andorra,Andorra,6878,129,1
+2016,PR,812401,AND,218,Europa,Andorra,Andorra,1534,145,1
+2014,EUR,812401,AND,219,Europa,Andorra,Andorra,910,32,0
+2011,PR,812401,AND,220,Europa,Andorra,Andorra,1017,96,0
+2009,EUR,812401,AND,221,Europa,Andorra,Andorra,901,54,0
+2022,AR,813001,CHE,222,Europa,Suíça,Berna,25592,3403,797
+2021,PR,813001,CHE,223,Europa,Suíça,Berna,27930,516,1
+2019,AR,813001,CHE,224,Europa,Suíça,Berna,29553,3884,617
+2019,EUR,813001,CHE,225,Europa,Suíça,Berna,30234,152,0
+2016,PR,813001,CHE,226,Europa,Suíça,Berna,1170,141,0
+2014,EUR,813001,CHE,227,Europa,Suíça,Berna,1067,61,1
+2011,PR,813001,CHE,228,Europa,Suíça,Berna,1126,113,0
+2009,EUR,813001,CHE,229,Europa,Suíça,Berna,1140,99,4
+2022,AR,813002,CHE,230,Europa,Suíça,Genebra,75474,10188,2074
+2021,PR,813002,CHE,231,Europa,Suíça,Genebra,73688,1523,4
+2019,AR,813002,CHE,232,Europa,Suíça,Genebra,69813,10044,3028
+2019,EUR,813002,CHE,233,Europa,Suíça,Genebra,70241,534,0
+2016,PR,813002,CHE,234,Europa,Suíça,Genebra,7314,471,3
+2015,AR,813002,CHE,235,Europa,Suíça,Consulado de Genebra,6430,1170,175
+2014,EUR,813002,CHE,236,Europa,Suíça,Genebra,7285,148,0
+2011,PR,813002,CHE,237,Europa,Suíça,Genebra,5719,396,1
+2009,EUR,813002,CHE,238,Europa,Suíça,Genebra,3909,190,2
+2022,AR,813003,CHE,239,Europa,Suíça,Zurique,48662,7247,1651
+2021,PR,813003,CHE,240,Europa,Suíça,Zurique,48019,1423,4
+2019,AR,813003,CHE,241,Europa,Suíça,Zurique,47429,7539,1779
+2019,EUR,813003,CHE,242,Europa,Suíça,Zurique,47262,450,2
+2016,PR,813003,CHE,243,Europa,Suíça,Zurique,2642,240,0
+2014,EUR,813003,CHE,244,Europa,Suíça,Zurique,2134,71,0
+2011,PR,813003,CHE,245,Europa,Suíça,Zurique,1648,153,1
+2009,EUR,813003,CHE,246,Europa,Suíça,Zurique,1412,57,0
+2015,AR,813099,CHE,247,Europa,Suíça,Restantes Consulados da Suíça,3027,952,203
+2011,AR,813099,CHE,248,Europa,Suíça,Consulados da Suíça,7714,2244,513
+2009,AR,813099,CHE,249,Europa,Suíça,Consulados da Suíça,5284,1674,111
+2021,PR,814901,TUR,250,Europa,Turquia,Ankara,2196,8,0
+2019,EUR,814901,TUR,251,Europa,Turquia,Ankara,1302,6,0
+2021,PR,815001,CYP,252,Europa,Chipre,Nicósia,229,10,0
+2019,EUR,815001,CYP,253,Europa,Chipre,Nicósia,159,15,0
+2022,AR,819999,,254,Europa,Restantes Países da Europa,Restantes Postos Consulares Dos Países da Europa,47491,4687,618
+2019,AR,819999,,255,Europa,Restantes países da Europa,Restantes Postos Consulares dos países da Europa,25410,3269,656
+2015,AR,819999,,256,Europa,Restantes países da Europa,Restantes Consulados dos países da Europa,9558,2949,267
+2011,AR,819999,,257,Europa,Restantes Países da Europa,Consulados dos restantes países da Europa,11121,3411,274
+2009,AR,819999,,258,Europa,Restantes Países da Europa,Consulados Restantes da Europa,10377,3024,448
+2009,AR,829999,,259,Fora da Europa,Países da América e África,Cons. América e África,16667,1051,28
+2021,PR,910101,ZAF,260,África,África do Sul,Cape Town,5397,80,1
+2019,EUR,910101,ZAF,261,África,África Do Sul,Cape Town,5594,79,0
+2016,PR,910101,ZAF,262,África,África do Sul,Cape Town,1202,87,0
+2014,EUR,910101,ZAF,263,África,África do Sul,Cape Town,1257,126,0
+2011,PR,910101,ZAF,264,África,África do Sul,Cape Town,1246,168,0
+2009,EUR,910101,ZAF,265,África,África do Sul,Cape Town,1267,109,0
+2009,EUR,910102,ZAF,266,África,África do Sul,Durban,444,16,0
+2021,PR,910103,ZAF,267,África,África do Sul,Joanesburgo,26688,435,1
+2019,EUR,910103,ZAF,268,África,África Do Sul,Joanesburgo,24066,313,1
+2016,PR,910103,ZAF,269,África,África do Sul,Joanesburgo,6584,497,6
+2014,EUR,910103,ZAF,270,África,África do Sul,Johanesburg,5228,220,4
+2011,PR,910103,ZAF,271,África,África do Sul,Johanesburg,5027,504,4
+2009,EUR,910103,ZAF,272,África,África do Sul,Johanesburg,5109,244,4
+2021,PR,910104,ZAF,273,África,África do Sul,Pretória,3175,62,0
+2019,EUR,910104,ZAF,274,África,África Do Sul,Pretória,3364,94,0
+2016,PR,910104,ZAF,275,África,África do Sul,Pretória,729,126,0
+2014,EUR,910104,ZAF,276,África,África do Sul,Pretória,706,69,0
+2011,PR,910104,ZAF,277,África,África do Sul,Pretória,1024,197,0
+2009,EUR,910104,ZAF,278,África,África do Sul,Pretória,778,109,0
+2021,PR,910201,AGO,279,África,Angola,Luanda,15848,555,3
+2019,EUR,910201,AGO,280,África,Angola,Luanda,16976,276,0
+2016,PR,910201,AGO,281,África,Angola,Luanda,641,123,1
+2014,EUR,910201,AGO,282,África,Angola,Luanda,556,18,1
+2011,PR,910201,AGO,283,África,Angola,Luanda,736,70,0
+2009,EUR,910201,AGO,284,África,Angola,Luanda,812,39,0
+2021,PR,910202,AGO,285,África,Angola,Benguela,3061,73,1
+2019,EUR,910202,AGO,286,África,Angola,Benguela,2927,24,0
+2016,PR,910202,AGO,287,África,Angola,Benguela,215,22,0
+2014,EUR,910202,AGO,288,África,Angola,Benguela,239,6,0
+2011,PR,910202,AGO,289,África,Angola,Benguela,302,35,0
+2009,EUR,910202,AGO,290,África,Angola,Benguela,369,21,0
+2022,AR,910299,AGO,291,Fora da Europa,Angola,Postos Consulares de Angola,18007,778,9
+2021,PR,910401,CPV,292,África,Cabo Verde,Praia,4023,393,2
+2019,EUR,910401,CPV,293,África,Cabo Verde,Praia,2966,76,0
+2016,PR,910401,CPV,294,África,Cabo Verde,Praia,650,197,0
+2014,EUR,910401,CPV,295,África,Cabo Verde,Praia,552,70,0
+2011,PR,910401,CPV,296,África,Cabo Verde,Praia,499,193,2
+2009,EUR,910401,CPV,297,África,Cabo Verde,Praia,377,76,1
+2021,PR,910601,MAR,298,África,Marrocos,Rabat,304,9,0
+2019,EUR,910601,MAR,299,África,Marrocos,Rabat,194,10,0
+2021,PR,910701,MOZ,300,África,Moçambique,Maputo,8789,606,6
+2019,EUR,910701,MOZ,301,África,Moçambique,Maputo,8313,311,4
+2016,PR,910701,MOZ,302,África,Moçambique,Maputo,1754,374,0
+2014,EUR,910701,MOZ,303,África,Moçambique,Maputo,1304,55,0
+2011,PR,910701,MOZ,304,África,Moçambique,Maputo,1353,150,0
+2009,EUR,910701,MOZ,305,África,Moçambique,Maputo,1309,69,0
+2021,PR,910702,MOZ,306,África,Moçambique,Beira,1087,18,1
+2019,EUR,910702,MOZ,307,África,Moçambique,Beira,961,16,0
+2016,PR,910702,MOZ,308,África,Moçambique,Beira,490,28,0
+2014,EUR,910702,MOZ,309,África,Moçambique,Beira,388,9,0
+2011,PR,910702,MOZ,310,África,Moçambique,Beira,412,20,0
+2009,EUR,910702,MOZ,311,África,Moçambique,Beira,427,21,0
+2021,PR,910901,STP,312,África,São Tomé e Príncipe,São Tomé,698,58,0
+2019,EUR,910901,STP,313,África,São Tomé E Príncipe,São Tomé,587,31,0
+2016,PR,910901,STP,314,África,São Tomé e Príncipe,São Tomé,200,40,0
+2014,EUR,910901,STP,315,África,São Tomé e Príncipe,São Tomé,211,38,0
+2009,EUR,910901,STP,316,África,São Tomé e Príncipe,São Tomé,112,29,0
+2021,PR,911001,SEN,317,África,Senegal,Dacar,415,17,0
+2019,EUR,911001,SEN,318,África,Senegal,Dacar,354,10,0
+2021,PR,911201,COG,319,África,República Democrática do Congo,Kinshasa,132,12,1
+2019,EUR,911201,COG,320,África,República Democrática Do Congo,Kinshasa,90,7,0
+2011,PR,911201,COG,321,África,Congo,Kinshasa,117,14,0
+2009,EUR,911201,COG,322,África,Congo,Kinshasa,120,12,0
+2021,PR,911401,ZWE,323,África,Zimbabwe,Harare,438,14,0
+2019,EUR,911401,ZWE,324,África,Zimbabwe,Harare,242,10,0
+2016,PR,911401,ZWE,325,África,Zimbabwe,Harare,291,16,0
+2014,EUR,911401,ZWE,326,África,Zimbabwe,Harare,335,15,0
+2011,PR,911401,ZWE,327,África,Zimbabwe,Harare,363,50,0
+2009,EUR,911401,ZWE,328,África,Zimbabwe,Harare,286,13,0
+2021,PR,911501,GNB,329,África,Guiné-bissau,Bissau,184,34,0
+2019,EUR,911501,GNB,330,África,Guiné-Bissau,Bissau,152,22,0
+2016,PR,911501,GNB,331,África,Guiné-Bissau,Bissau,159,63,0
+2014,EUR,911501,GNB,332,África,Guiné-Bissau,Bissau,145,51,0
+2011,PR,911501,GNB,333,África,Guiné-Bissau,Bissau,182,73,0
+2009,EUR,911501,GNB,334,África,Guiné-Bissau,Bissau,142,32,2
+2021,PR,914601,NAM,335,África,Namíbia,Windhoek,508,38,0
+2019,EUR,914601,NAM,336,África,Namíbia,Windhoek,424,8,0
+2016,PR,914601,NAM,337,África,Namíbia,Windhoek,267,40,0
+2014,EUR,914601,NAM,338,África,Namíbia,Windhoek,250,18,0
+2022,AR,919999,,339,Fora da Europa,Restantes Países de África,Restantes Postos Consulares dos Países de África,51000,2226,33
+2019,AR,919999,,340,Fora da Europa,Países de África,Postos Consulares dos países de África,66855,1644,12
+2015,AR,919999,,341,Fora da Europa,Países de África,Consulados dos países de África,9640,666,0
+2021,PR,920101,ARG,342,Américas,Argentina,Buenos Aires,6185,74,1
+2019,EUR,920101,ARG,343,Américas,Argentina,Buenos Aires,5390,199,1
+2016,PR,920101,ARG,344,Américas,Argentina,Buenos Aires,1526,252,0
+2014,EUR,920101,ARG,345,Américas,Argentina,Buenos Aires,1313,175,2
+2011,PR,920101,ARG,346,Américas,Argentina,Buenos Aires,1240,208,1
+2009,EUR,920101,ARG,347,Américas,Argentina,Buenos Aires,1254,145,0
+2021,PR,920301,BRA,348,Américas,Brasil,Belém do Pará,7871,404,7
+2019,EUR,920301,BRA,349,Américas,Brasil,Belém Do Pará,7123,723,1
+2016,PR,920301,BRA,350,Américas,Brasil,Belém do Pará,3981,610,3
+2014,EUR,920301,BRA,351,Américas,Brasil,Belém do Pará,3412,383,4
+2011,PR,920301,BRA,352,Américas,Brasil,Belém do Pará,2372,606,3
+2009,EUR,920301,BRA,353,Américas,Brasil,Belém do Pará,1895,402,2
+2021,PR,920302,BRA,354,Américas,Brasil,Belo Horizonte,5106,68,0
+2019,EUR,920302,BRA,355,Américas,Brasil,Belo Horizonte,4566,67,0
+2016,PR,920302,BRA,356,Américas,Brasil,Belo Horizonte,641,38,0
+2014,EUR,920302,BRA,357,Américas,Brasil,Belo Horizonte,639,10,0
+2011,PR,920302,BRA,358,Américas,Brasil,Belo Horizonte,680,67,1
+2009,EUR,920302,BRA,359,Américas,Brasil,Belo Horizonte,697,22,0
+2021,PR,920303,BRA,360,Américas,Brasil,Brasília,5247,205,1
+2019,EUR,920303,BRA,361,Américas,Brasil,Brasília,4678,151,0
+2016,PR,920303,BRA,362,Américas,Brasil,Brasília,150,37,0
+2014,EUR,920303,BRA,363,Américas,Brasil,Brasília,159,20,1
+2011,PR,920303,BRA,364,Américas,Brasil,Brasília,152,34,0
+2009,EUR,920303,BRA,365,Américas,Brasil,Brasília,131,23,0
+2021,PR,920304,BRA,366,Américas,Brasil,Curitiba,9167,124,0
+2019,EUR,920304,BRA,367,Américas,Brasil,Curitiba,8547,81,0
+2016,PR,920304,BRA,368,Américas,Brasil,Curitiba,6673,109,1
+2014,EUR,920304,BRA,369,Américas,Brasil,Curitiba,5155,103,1
+2011,PR,920304,BRA,370,Américas,Brasil,Curitiba,2902,74,0
+2009,EUR,920304,BRA,371,Américas,Brasil,Curitiba,1376,28,0
+2021,PR,920305,BRA,372,Américas,Brasil,Porto Alegre,2431,48,0
+2019,EUR,920305,BRA,373,Américas,Brasil,Porto Alegre,1775,46,0
+2016,PR,920305,BRA,374,Américas,Brasil,Porto Alegre,475,12,0
+2014,EUR,920305,BRA,375,Américas,Brasil,Porto Alegre,353,11,0
+2011,PR,920305,BRA,376,Américas,Brasil,Porto Alegre,372,24,0
+2009,EUR,920305,BRA,377,Américas,Brasil,Porto Alegre,377,44,0
+2021,PR,920306,BRA,378,Américas,Brasil,Recife,4301,108,0
+2019,EUR,920306,BRA,379,Américas,Brasil,Recife,3410,84,2
+2016,PR,920306,BRA,380,Américas,Brasil,Recife,1090,50,0
+2014,EUR,920306,BRA,381,Américas,Brasil,Recife,1137,30,0
+2011,PR,920306,BRA,382,Américas,Brasil,Recife,1176,78,0
+2009,EUR,920306,BRA,383,Américas,Brasil,Recife,1304,100,0
+2022,AR,920307,BRA,384,Fora da Europa,Brasil,Rio de Janeiro,76303,4148,100
+2021,PR,920307,BRA,385,Américas,Brasil,Rio de Janeiro,75319,618,2
+2019,AR,920307,BRA,386,Fora da Europa,Brasil,Rio de Janeiro,61003,8785,519
+2019,EUR,920307,BRA,387,Américas,Brasil,Rio De Janeiro,62567,440,2
+2016,PR,920307,BRA,388,Américas,Brasil,Rio de Janeiro,21670,239,1
+2015,AR,920307,BRA,389,Fora da Europa,Brasil,Consulado do Rio de Janeiro,16673,1135,63
+2014,EUR,920307,BRA,390,Américas,Brasil,Rio de Janeiro,17280,104,0
+2011,PR,920307,BRA,391,Américas,Brasil,Rio de Janeiro,15530,355,2
+2009,EUR,920307,BRA,392,Américas,Brasil,Rio de Janeiro,16316,172,2
+2021,PR,920308,BRA,393,Américas,Brasil,Salvador (baía),2378,37,0
+2019,EUR,920308,BRA,394,Américas,Brasil,Salvador (Baía),2271,24,0
+2016,PR,920308,BRA,395,Américas,Brasil,Salvador (Baía),625,22,0
+2014,EUR,920308,BRA,396,Américas,Brasil,Salvador (Baía),632,11,0
+2011,PR,920308,BRA,397,Américas,Brasil,Salvador (Baía),690,26,0
+2009,EUR,920308,BRA,398,Américas,Brasil,Salvador (Baía),733,22,0
+2009,EUR,920309,BRA,399,Américas,Brasil,Santos,1655,161,3
+2022,AR,920310,BRA,400,Fora da Europa,Brasil,S. Paulo,125708,13486,250
+2021,PR,920310,BRA,401,Américas,Brasil,S. Paulo,136957,1216,9
+2019,AR,920310,BRA,402,Fora da Europa,Brasil,S. Paulo,125920,17880,3024
+2019,EUR,920310,BRA,403,Américas,Brasil,S. Paulo,124435,1113,8
+2016,PR,920310,BRA,404,Américas,Brasil,S. Paulo,77534,1349,6
+2015,AR,920310,BRA,405,Fora da Europa,Brasil,Consulado de S. Paulo,72703,4775,421
+2014,EUR,920310,BRA,406,Américas,Brasil,S. Paulo,67388,509,2
+2011,PR,920310,BRA,407,Américas,Brasil,S. Paulo,48504,1096,6
+2009,EUR,920310,BRA,408,Américas,Brasil,S. Paulo,28811,120,0
+2021,PR,920311,BRA,409,Américas,Brasil,Fortaleza,1623,98,0
+2019,EUR,920311,BRA,410,Américas,Brasil,Fortaleza,1288,53,2
+2016,PR,920311,BRA,411,Américas,Brasil,Fortaleza,541,104,1
+2014,EUR,920311,BRA,412,Américas,Brasil,Fortaleza,393,66,0
+2011,PR,920311,BRA,413,Américas,Brasil,Fortaleza,260,104,1
+2022,AR,920399,BRA,414,Fora da Europa,Brasil,Restantes Postos Consulares do Brasil,38129,17281,374
+2019,AR,920399,BRA,415,Fora da Europa,Brasil,Restantes Postos Consulares do Brasil,33687,4699,699
+2015,AR,920399,BRA,416,Fora da Europa,Brasil,Restantes Consulados do Brasil,12540,968,106
+2011,AR,920399,BRA,417,Fora da Europa,Brasil,Consulados do Brasil,73370,7934,1430
+2009,AR,920399,BRA,418,Fora da Europa,Brasil,Consulados do Brasil,53347,3102,350
+2021,PR,920401,CAN,419,Américas,Canadá,Montreal,8475,118,1
+2019,EUR,920401,CAN,420,Américas,Canadá,Montreal,8057,63,0
+2016,PR,920401,CAN,421,Américas,Canadá,Montreal,1534,108,0
+2014,EUR,920401,CAN,422,Américas,Canadá,Montreal,1403,14,0
+2011,PR,920401,CAN,423,Américas,Canadá,Montreal,950,53,0
+2009,EUR,920401,CAN,424,Américas,Canadá,Montreal,792,18,0
+2021,PR,920402,CAN,425,Américas,Canadá,Otava,1523,22,0
+2019,EUR,920402,CAN,426,Américas,Canadá,Otava,1397,14,0
+2016,PR,920402,CAN,427,Américas,Canadá,Otava,457,34,0
+2014,EUR,920402,CAN,428,Américas,Canadá,Otava,471,6,0
+2011,PR,920402,CAN,429,Américas,Canadá,Otava,426,35,0
+2009,EUR,920402,CAN,430,Américas,Canadá,Otava,356,9,0
+2022,AR,920403,CAN,431,Fora da Europa,Canadá,Toronto,41546,6856,272
+2021,PR,920403,CAN,432,Américas,Canadá,Toronto,44354,258,0
+2019,AR,920403,CAN,433,Fora da Europa,Canadá,Toronto,41186,3760,953
+2019,EUR,920403,CAN,434,Américas,Canadá,Toronto,41331,115,1
+2016,PR,920403,CAN,435,Américas,Canadá,Toronto,11093,287,0
+2015,AR,920403,CAN,436,Fora da Europa,Canadá,Consulado de Toronto,9913,1292,434
+2014,EUR,920403,CAN,437,Américas,Canadá,Toronto,9082,19,0
+2011,PR,920403,CAN,438,Américas,Canadá,Toronto,8221,397,2
+2009,EUR,920403,CAN,439,Américas,Canadá,Toronto,7382,153,0
+2021,PR,920404,CAN,440,Américas,Canadá,Vancouver,4974,49,1
+2019,EUR,920404,CAN,441,Américas,Canadá,Vancouver,4533,16,0
+2016,PR,920404,CAN,442,Américas,Canadá,Vancouver,762,16,0
+2014,EUR,920404,CAN,443,Américas,Canadá,Vancouver,751,10,0
+2011,PR,920404,CAN,444,Américas,Canadá,Vancouver,822,20,0
+2009,EUR,920404,CAN,445,Américas,Canadá,Vancouver,885,10,0
+2022,AR,920499,CAN,446,Fora da Europa,Canadá,Restantes Postos Consulares do Canadá,14319,3071,44
+2019,AR,920499,CAN,447,Fora da Europa,Canadá,Restantes Postos Consulares do Canadá,14096,1719,925
+2015,AR,920499,CAN,448,Fora da Europa,Canadá,Restantes Consulados do Canadá,2284,446,104
+2011,AR,920499,CAN,449,Fora da Europa,Canadá,Consulados do Canadá,9241,2115,236
+2009,AR,920499,CAN,450,Fora da Europa,Canadá,Consulados do Canadá,7243,1500,390
+2021,PR,920501,COL,451,Américas,Colômbia,Bogotá,667,55,0
+2019,EUR,920501,COL,452,Américas,Colômbia,Bogotá,456,52,0
+2016,PR,920501,COL,453,Américas,Colômbia,Bogotá,310,54,1
+2014,EUR,920501,COL,454,Américas,Colômbia,Bogotá,231,33,0
+2021,PR,920701,USA,455,Américas,Estados Unidos da América,Boston,5929,67,2
+2019,EUR,920701,USA,456,Américas,Estados Unidos Da América,Boston,5529,37,2
+2016,PR,920701,USA,457,Américas,Estados Unidos da América,Boston,642,37,0
+2014,EUR,920701,USA,458,Américas,Estados Unidos da América,Boston,663,10,0
+2011,PR,920701,USA,459,Américas,Estados Unidos da América,Boston,666,42,1
+2009,EUR,920701,USA,460,Américas,Estados Unidos da América,Boston,750,23,0
+2022,AR,920702,USA,461,Fora da Europa,Estados Unidos da América,Newark,16606,2541,22
+2021,PR,920702,USA,462,Américas,Estados Unidos da América,Newark,17989,305,0
+2019,EUR,920702,USA,463,Américas,Estados Unidos Da América,Newark,17433,54,0
+2016,PR,920702,USA,464,Américas,Estados Unidos da América,Newark,4264,23,0
+2014,EUR,920702,USA,465,Américas,Estados Unidos da América,Newark,4049,16,0
+2011,PR,920702,USA,466,Américas,Estados Unidos da América,Newark,3809,136,2
+2009,EUR,920702,USA,467,Américas,Estados Unidos da América,Newark,4297,48,0
+2021,PR,920703,USA,468,Américas,Estados Unidos da América,New Bedford,9266,58,0
+2019,EUR,920703,USA,469,Américas,Estados Unidos Da América,New Bedford,8996,37,1
+2016,PR,920703,USA,470,Américas,Estados Unidos da América,New Bedford,4091,101,0
+2015,AR,920703,USA,471,Fora da Europa,Estados Unidos da América,Consulado de New Bedford,3145,388,3
+2014,EUR,920703,USA,472,Américas,Estados Unidos da América,New Bedford,4197,38,0
+2011,PR,920703,USA,473,Américas,Estados Unidos da América,New Bedford,4463,185,5
+2009,EUR,920703,USA,474,Américas,Estados Unidos da América,New Bedford,4738,87,7
+2021,PR,920704,USA,475,Américas,Estados Unidos da América,New York,9023,210,0
+2019,EUR,920704,USA,476,Américas,Estados Unidos Da América,New York,7556,109,1
+2016,PR,920704,USA,477,Américas,Estados Unidos da América,New York,1078,63,0
+2014,EUR,920704,USA,478,Américas,Estados Unidos da América,New York,964,44,2
+2011,PR,920704,USA,479,Américas,Estados Unidos da América,New York,968,57,0
+2009,EUR,920704,USA,480,Américas,Estados Unidos da América,New York,1016,29,1
+2021,PR,920705,USA,481,Américas,Estados Unidos da América,Providence,4274,44,1
+2019,EUR,920705,USA,482,Américas,Estados Unidos Da América,Providence,3652,30,0
+2016,PR,920705,USA,483,Américas,Estados Unidos da América,Providence,1455,33,0
+2014,EUR,920705,USA,484,Américas,Estados Unidos da América,Providence,972,10,0
+2011,PR,920705,USA,485,Américas,Estados Unidos da América,Providence,1098,65,0
+2009,EUR,920705,USA,486,Américas,Estados Unidos da América,Providence,1178,29,0
+2021,PR,920706,USA,487,Américas,Estados Unidos da América,São Francisco,6534,67,0
+2019,EUR,920706,USA,488,Américas,Estados Unidos Da América,São Francisco,6433,25,0
+2016,PR,920706,USA,489,Américas,Estados Unidos da América,São Francisco,527,38,1
+2014,EUR,920706,USA,490,Américas,Estados Unidos da América,São Francisco,247,7,0
+2011,PR,920706,USA,491,Américas,Estados Unidos da América,São Francisco,211,30,0
+2009,EUR,920706,USA,492,Américas,Estados Unidos da América,São Francisco,197,26,0
+2021,PR,920707,USA,493,Américas,Estados Unidos da América,Washington,9640,112,0
+2019,EUR,920707,USA,494,Américas,Estados Unidos Da América,Washington,7300,55,0
+2016,PR,920707,USA,495,Américas,Estados Unidos da América,Washington,740,82,0
+2014,EUR,920707,USA,496,Américas,Estados Unidos da América,Washington,312,19,0
+2011,PR,920707,USA,497,Américas,Estados Unidos da América,Washington,254,21,0
+2009,EUR,920707,USA,498,Américas,Estados Unidos da América,Washington,269,11,0
+2022,AR,920799,USA,499,Fora da Europa,Estados Unidos da América,Restantes Postos Consulares dos Estados Unidos da América,45707,6060,114
+2015,AR,920799,USA,500,Fora da Europa,Estados Unidos da América,Restantes Consulados dos EUA,6309,962,145
+2011,AR,920799,USA,501,Fora da Europa,Estados Unidos da América,Consulados dos EUA,9353,1655,226
+2009,AR,920799,USA,502,Fora da Europa,Estados Unidos da América,Consulados dos EUA,9608,1695,264
+2021,PR,920801,MEX,503,Américas,México,México,845,56,0
+2019,EUR,920801,MEX,504,Américas,México,México,543,23,0
+2021,PR,920901,PER,505,Américas,Peru,Lima,322,22,0
+2019,EUR,920901,PER,506,Américas,Peru,Lima,160,11,0
+2021,PR,921001,URY,507,Américas,Uruguai,Montevideu,1353,48,0
+2019,EUR,921001,URY,508,Américas,Uruguai,Montevideu,1184,54,5
+2016,PR,921001,URY,509,Américas,Uruguai,Montevideu,649,53,0
+2014,EUR,921001,URY,510,Américas,Uruguai,Montevideu,610,29,1
+2011,PR,921001,URY,511,Américas,Uruguai,Montevideu,602,48,2
+2009,EUR,921001,URY,512,Américas,Uruguai,Montevideu,588,19,0
+2021,PR,921101,VEN,513,Américas,Venezuela,Caracas,33831,807,12
+2019,EUR,921101,VEN,514,Américas,Venezuela,Caracas,36517,384,1
+2016,PR,921101,VEN,515,Américas,Venezuela,Caracas,9254,550,0
+2014,EUR,921101,VEN,516,Américas,Venezuela,Caracas,7383,181,0
+2011,PR,921101,VEN,517,Américas,Venezuela,Caracas,5967,425,2
+2009,EUR,921101,VEN,518,Américas,Venezuela,Caracas,5549,115,0
+2021,PR,921102,VEN,519,Américas,Venezuela,Valência,18751,677,5
+2019,EUR,921102,VEN,520,Américas,Venezuela,Valência,17470,538,0
+2016,PR,921102,VEN,521,Américas,Venezuela,Valência,10548,735,0
+2014,EUR,921102,VEN,522,Américas,Venezuela,Valência,9063,441,1
+2011,PR,921102,VEN,523,Américas,Venezuela,Valência,4377,803,0
+2009,EUR,921102,VEN,524,Américas,Venezuela,Valência,1904,339,1
+2021,PR,921601,CHL,525,Américas,Chile,Santiago do Chile,967,56,2
+2019,EUR,921601,CHL,526,Américas,Chile,Santiago Do Chile,496,32,0
+2021,PR,922801,PAN,527,Américas,Panamá,Panamá,1145,66,0
+2019,EUR,922801,PAN,528,Américas,Panamá,Panamá,621,36,1
+2022,AR,929999,,529,Fora da Europa,Restantes Países da América,Restantes Postos Consulares Dos Países da América,65239,2119,42
+2019,AR,929999,,530,Fora da Europa,Restantes países da América,Restantes Postos Consulares dos países da América,118396,6686,1083
+2015,AR,929999,,531,Fora da Europa,Restantes países da América,Restantes Consulados dos países da América,19277,445,63
+2011,AR,929999,,532,Fora da Europa,Restantes Países da América e África,Consulados dos restantes países da América e África,20209,2050,255
+2021,PR,930101,SAU,533,Ásia e Oceania,Arábia Saudita,Riyadh,267,22,0
+2019,EUR,930101,SAU,534,Ásia e Oceania,Arábia Saudita,Riyadh,223,17,0
+2021,PR,930201,CHN,535,Ásia e Oceania,China,Pequim,235,19,0
+2019,EUR,930201,CHN,536,Ásia e Oceania,China,Pequim,238,18,0
+2021,PR,930203,CHN,537,Ásia e Oceania,China,Macau,70134,1474,26
+2019,EUR,930203,CHN,538,Ásia e Oceania,China,Macau,71163,670,0
+2016,PR,930203,CHN,539,Ásia e Oceania,China,Macau,16125,580,5
+2014,EUR,930203,CHN,540,Ásia e Oceania,China,Macau,11081,222,5
+2011,PR,930203,CHN,541,Ásia e Oceania,China,Macau,11219,369,1
+2009,EUR,930203,CHN,542,Ásia e Oceania,China,Macau,11272,223,3
+2021,PR,930204,CHN,543,Ásia e Oceania,China,Xangai,171,19,0
+2019,EUR,930204,CHN,544,Ásia e Oceania,China,Xangai,157,10,0
+2022,AR,930299,CHN,545,Fora da Europa,China,Postos Consulares da China,63700,4202,76
+2019,AR,930299,CHN,546,Fora da Europa,China,Postos Consulares da China,65698,3460,727
+2015,AR,930299,CHN,547,Fora da Europa,China,Consulados da China,8294,3111,137
+2019,EUR,930401,IND,548,Ásia e Oceania,Índia,Nova Delhi,410,10,0
+2021,PR,930402,IND,549,Ásia e Oceania,Índia,Goa,23911,19,0
+2019,EUR,930402,IND,550,Ásia e Oceania,Índia,Goa,32438,12,0
+2016,PR,930402,IND,551,Ásia e Oceania,Índia,Goa,1649,15,0
+2014,EUR,930402,IND,552,Ásia e Oceania,Índia,Goa,1655,7,0
+2011,PR,930402,IND,553,Ásia e Oceania,Índia,Goa,1694,13,0
+2009,EUR,930402,IND,554,Ásia e Oceania,Índia,Goa,1750,34,0
+2021,PR,930701,JPN,555,Ásia e Oceania,Japão,Tóquio,275,17,0
+2019,EUR,930701,JPN,556,Ásia e Oceania,Japão,Tóquio,241,12,0
+2021,PR,931001,THA,557,Ásia e Oceania,Tailândia,Banguecoque,158,12,0
+2019,EUR,931001,THA,558,Ásia e Oceania,Tailândia,Banguecoque,106,10,0
+2021,PR,931201,AUS,559,Ásia e Oceania,Austrália,Camberra,194,14,0
+2019,EUR,931201,AUS,560,Ásia e Oceania,Austrália,Camberra,169,9,0
+2021,PR,931202,AUS,561,Ásia e Oceania,Austrália,Sidney,7935,279,4
+2019,EUR,931202,AUS,562,Ásia e Oceania,Austrália,Sidney,7924,44,0
+2016,PR,931202,AUS,563,Ásia e Oceania,Austrália,Sidney,2003,298,5
+2014,EUR,931202,AUS,564,Ásia e Oceania,Austrália,Sidney,1604,63,0
+2011,PR,931202,AUS,565,Ásia e Oceania,Austrália,Sidney,1592,163,1
+2009,EUR,931202,AUS,566,Ásia e Oceania,Austrália,Sidney,1661,147,0
+2021,PR,932201,IDN,567,Ásia e Oceania,Indonésia,Jacarta,109,7,0
+2019,EUR,932201,IDN,568,Ásia e Oceania,Indonésia,Jacarta,102,3,0
+2021,PR,932301,ISR,569,Ásia e Oceania,Israel,Tel-aviv,2004,9,0
+2019,EUR,932301,ISR,570,Ásia e Oceania,Israel,Tel-Aviv,912,10,0
+2021,PR,933301,SGP,571,Ásia e Oceania,Singapura,Singapura,426,125,1
+2019,EUR,933301,SGP,572,Ásia e Oceania,Singapura,Singapura,332,76,1
+2021,PR,934101,TLS,573,Ásia e Oceania,Timor,Dili,949,80,0
+2019,EUR,934101,TLS,574,Ásia e Oceania,Timor,Dili,896,51,0
+2016,PR,934101,TLS,575,Ásia e Oceania,Timor,Dili,281,118,2
+2014,EUR,934101,TLS,576,Ásia e Oceania,Timor,Dili,284,115,1
+2011,PR,934101,TLS,577,Ásia e Oceania,Timor,Dili,358,173,6
+2009,EUR,934101,TLS,578,Ásia e Oceania,Timor,Dili,186,86,0
+2021,PR,934401,ARE,579,Ásia e Oceania,Emiratos Árabes Unidos,Abu Dhabi,3109,105,0
+2019,EUR,934401,ARE,580,Ásia e Oceania,Emiratos Árabes Unidos,Abu Dhabi,2347,70,0
+2021,PR,934901,QAT,581,Ásia e Oceania,Qatar,Doha,533,129,1
+2019,EUR,934901,QAT,582,Ásia e Oceania,Qatar,Doha,489,39,0
+2022,AR,939999,,583,Fora da Europa,Restantes Países da Ásia e Oceânia,Restantes Postos Consulares Dos Países da Ásia e Oceânia,39307,1674,54
+2019,AR,939999,,584,Fora da Europa,Restantes países da Ásia e Oceânia,Restantes Postos Consulares dos países da Ásia e Oceânia,44323,1700,683
+2015,AR,939999,,585,Fora da Europa,Restantes países da Ásia e Oceânia,Restantes Consulados dos países Ásia e Oceânia,3729,508,103
+2011,AR,939999,,586,Fora da Europa,Países da Ásia e Oceânia,Consulados dos Países da Ásia e Oceânia,7883,1366,389
+2009,AR,939999,,587,Fora da Europa,Países da Ásia e Oceânia,Consulados dos Países da Ásia e Oceânia,7606,1345,67

@@ -231,26 +231,26 @@ def read_censos():
 
     return populacao
 
-def read_consulados_mai(ano):
-    df = pd.read_excel("dados/MAI/BDRE_Contagem_Eleitores_" + str(ano) + ".xls", sheet_name="Freguesia_Consulado", converters={"Codigo":str, 'Código':str, "Nac":int, "UE": int, "ER":int,"TOTAL":int})
-    rename_dict = {"Codigo":"CONSULADO", "Código":"CONSULADO", "Nac":"NAC", "Distrito/Ilha/Continente > Concelho/País > Freguesia/Consulado":"Nome"}
+#def read_consulados_mai(ano):
+#    df = pd.read_excel("dados/MAI/BDRE_Contagem_Eleitores_" + str(ano) + ".xls", sheet_name="Freguesia_Consulado", converters={"Codigo":str, 'Código':str, "Nac":int, "UE": int, "ER":int,"TOTAL":int})
+#    rename_dict = {"Codigo":"CONSULADO", "Código":"CONSULADO", "Nac":"NAC", "Distrito/Ilha/Continente > Concelho/País > Freguesia/Consulado":"Nome"}
 
-    for old_col, new_col in rename_dict.items():
-        if old_col in df.columns:
-            df = df.rename(columns={old_col: new_col})
+#    for old_col, new_col in rename_dict.items():
+#        if old_col in df.columns:
+#            df = df.rename(columns={old_col: new_col})
 
-    df = df[["CONSULADO", "Nome", "NAC"]]
-    df = df[~df["CONSULADO"].isna()]
-    df = df.loc[df["CONSULADO"].map(lambda x: int(str(x)[:2]) >= 50 and  int(str(x)[:2]) < 99)]
+#    df = df[["CONSULADO", "Nome", "NAC"]]
+#    df = df[~df["CONSULADO"].isna()]
+#    df = df.loc[df["CONSULADO"].map(lambda x: int(str(x)[:2]) >= 50 and  int(str(x)[:2]) < 99)]
 
-    df['Pais'] = df['CONSULADO'].str[:4].map(corr_consulados_cod_nome)
-    df['Cidade'] = df['Nome'].str.split(' > ', expand=True)[2]
+#    df['Pais'] = df['CONSULADO'].str[:4].map(corr_consulados_cod_nome)
+#    df['Cidade'] = df['Nome'].str.split(' > ', expand=True)[2]
 
 
-    df = df.groupby('CONSULADO').agg({'Pais': 'first', 'Cidade':'first', 'NAC': 'sum'})
-    df = df.rename(columns={"NAC": "PT_MAI_" + str(ano)[2:]})
+#    df = df.groupby('CONSULADO').agg({'Pais': 'first', 'Cidade':'first', 'NAC': 'sum'})
+#    df = df.rename(columns={"NAC": "PT_MAI_" + str(ano)[2:]})
 
-    return df
+#    return df
 
 def get_comp():
 
@@ -342,13 +342,13 @@ def read_consulados_mai():
     
     return comp_consulados
 
-def find_country_intervals(data):
-    cd = {}
+def find_country_intervals(type):
+    data = {}
 
     for year in range(2012, 2022):
         print(year)
-        cd[year] = read_consulados_mai(year)["Cidade"].tolist()
-        print(str(year) + ": " + str(len(cd[year])))
+        data[year] = read_consulados_mai_year(year)[type].tolist()
+        print(str(year) + ": " + str(len(data[year])))
     
     all_countries = set()
     intervals = {}

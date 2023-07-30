@@ -1,4 +1,4 @@
-def print_mapa(var1="diff_rel_21", var2 = "diff_rel_11", var3="diff_rel_01", ano1 = 2021, ano2 = 2011, ano3 = 2001):
+def print_mapa(comp, var1="diff_rel_21", var2 = "diff_rel_11", var3="diff_rel_01", ano1 = 2021, ano2 = 2011, ano3 = 2001):
     district_stats1 = comp.groupby('Distrito')[var1].apply(lambda x: pd.Series({'weighted_mean_diff': (x * comp.loc[x.index, 'PT_INE_21']).sum() / comp.loc[x.index, 'PT_INE_21'].sum()}))
     district_stats1 = pd.DataFrame(district_stats1).reset_index().drop(columns=["level_1"]).set_index("Distrito")
     
@@ -40,7 +40,7 @@ def print_mapa(var1="diff_rel_21", var2 = "diff_rel_11", var3="diff_rel_01", ano
     plt.show()
     
 #Distribuição dos excessos
-def print_mapa2(var1="diff_abs_21", var2 = "diff_abs_11", var3="diff_abs_01", ano1 = 2021, ano2 = 2011, ano3 = 2001):
+def print_mapa2(comp, var1="diff_abs_21", var2 = "diff_abs_11", var3="diff_abs_01", ano1 = 2021, ano2 = 2011, ano3 = 2001):
     district_stats1 = comp.groupby('Distrito')[var1].apply(lambda x: pd.Series({'excesso_percentagem': x.sum() / comp[var1].sum() * 100}))
     district_stats1 = pd.DataFrame(district_stats1).reset_index().drop(columns=["level_1"]).set_index("Distrito")
     
@@ -81,7 +81,7 @@ def print_mapa2(var1="diff_abs_21", var2 = "diff_abs_11", var3="diff_abs_01", an
         ax3.annotate(text=f"{row[var3]:.1f}", xy=row['geometry'].centroid.coords[0], horizontalalignment='center', fontsize=15)
     plt.show()
     
-def print_mapa3(var1="diff_abs_21", var2 = "diff_abs_11", var3="diff_abs_01", ano1 = 2021, ano2 = 2011, ano3 = 2001):
+def print_mapa3(comp, var1="diff_abs_21", var2 = "diff_abs_11", var3="diff_abs_01", ano1 = 2021, ano2 = 2011, ano3 = 2001):
     district_stats1 = comp.groupby('Distrito')[var1].apply(lambda x: pd.Series({'excesso_percentagem': (x.sum() / comp[var1].sum() * 100) - (comp.loc[x.index, "PT_INE_21"].sum() / comp["PT_INE_21"].sum() * 100)}))
     district_stats1 = pd.DataFrame(district_stats1).reset_index().drop(columns=["level_1"]).set_index("Distrito")
     
